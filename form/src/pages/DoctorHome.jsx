@@ -242,7 +242,7 @@ export default function DoctorHome() {
 
                                     <div className="flex justify-between items-start relative z-10">
                                         <div
-                                            className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 cursor-pointer flex-1"
+                                            className="flex flex-row items-center gap-3 sm:gap-4 cursor-pointer flex-1"
                                             onClick={() => navigate(`/doctor/profile/${doc.id}`, { state: { doctor: doc } })}
                                         >
                                             <div className="relative shrink-0">

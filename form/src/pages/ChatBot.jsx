@@ -304,8 +304,8 @@ export default function ChatBot() {
                                     </div>
                                     <div className="flex flex-col">
                                         <div className={`px-5 py-4 rounded-[28px] shadow-sm relative whitespace-pre-line ${msg.sender === 'bot'
-                                                ? "bg-white text-slate-900 border border-slate-100 rounded-tr-none"
-                                                : "bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded-tl-none"
+                                            ? "bg-white text-slate-900 border border-slate-100 rounded-tr-none"
+                                            : "bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded-tl-none"
                                             }`}>
                                             <p className="text-sm font-bold leading-relaxed">{msg.text}</p>
                                         </div>
@@ -356,8 +356,8 @@ export default function ChatBot() {
                                         disabled={!speechSupported || isTyping}
                                         title={isListening ? "إيقاف الاستماع" : "تحدث مع المساعد"}
                                         className={`p-2.5 rounded-xl transition-colors disabled:opacity-40 ${isListening
-                                                ? "text-white bg-rose-500 animate-pulse"
-                                                : "text-slate-400 hover:text-blue-600 hover:bg-blue-50"
+                                            ? "text-white bg-rose-500 animate-pulse"
+                                            : "text-slate-400 hover:text-blue-600 hover:bg-blue-50"
                                             }`}
                                     >
                                         <Mic size={20} />

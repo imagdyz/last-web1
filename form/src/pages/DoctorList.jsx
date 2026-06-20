@@ -73,7 +73,7 @@ export default function DoctorList() {
                                 )}
                                 
                                 <div className="flex justify-between items-start mb-6">
-                                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 flex-1">
+                                    <div className="flex flex-row items-center gap-3 sm:gap-4 flex-1">
                                         <div className="relative shrink-0">
                                             <img src={doc.img} alt={doc.name} className="w-16 h-16 rounded-2xl object-cover shadow-md group-hover:scale-105 transition-transform" />
                                             <div className="absolute -bottom-1 -left-1 w-6 h-6 bg-white rounded-lg flex items-center justify-center shadow-sm">
